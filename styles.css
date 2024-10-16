@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f0f0;
+}
+
+header {
+    background: #363434;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    height: 24px;
+    width: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    margin-left: 20px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(243, 115, 115, 0.7);
+}
+
+.produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background: rgb(223, 221, 221);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.ofertas {
+    background: #fcef38;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #575757;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+.btn-comprar {
+    background-color: #e94343; /* Cor verde */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mão ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.btn-comprar:hover {
+    background-color: #ab2a2a; /* Cor verde mais escura ao passar o mouse */
+}
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.page-link {
+    background-color: #e94343; /* Cor azul */
+    color: white; /* Texto branco */
+    padding: 10px 15px; /* Espaçamento interno */
+    text-decoration: none; /* Sem sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 0 5px; /* Espaçamento entre os links */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.page-link:hover {
+    background-color: #ab2a2a; /* Azul mais escuro ao passar o mouse */
+}
+
+.active {
+    background-color: #912c2c; /* Cor verde para a página ativa */
+}
