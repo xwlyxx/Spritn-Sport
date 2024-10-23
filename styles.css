@@ -118,18 +118,18 @@ footer ul li a {
     text-decoration: none;
 }
 .btn-comprar {
-    background-color: #e94343; /* Cor verde */
-    color: white; /* Texto branco */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 15px 30px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Mão ao passar o mouse */
-    transition: background-color 0.3s; /* Transição suave */
+    background-color: #e94343; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 .btn-comprar:hover {
-    background-color: #ab2a2a; /* Cor verde mais escura ao passar o mouse */
+    background-color: #ab2a2a; 
 }
 .pagination {
     display: flex;
@@ -138,19 +138,19 @@ footer ul li a {
 }
 
 .page-link {
-    background-color: #e94343; /* Cor azul */
-    color: white; /* Texto branco */
-    padding: 10px 15px; /* Espaçamento interno */
-    text-decoration: none; /* Sem sublinhado */
-    border-radius: 5px; /* Bordas arredondadas */
-    margin: 0 5px; /* Espaçamento entre os links */
-    transition: background-color 0.3s; /* Transição suave */
+    background-color: #e94343; 
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin: 0 5px; 
+    transition: background-color 0.3s; 
 }
 
 .page-link:hover {
-    background-color: #ab2a2a; /* Azul mais escuro ao passar o mouse */
+    background-color: #ab2a2a; 
 }
 
 .active {
-    background-color: #912c2c; /* Cor verde para a página ativa */
+    background-color: #912c2c; 
 }
